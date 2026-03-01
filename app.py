@@ -16,7 +16,7 @@ STICKER_FOLDER = "stickers"
 
 # Page config
 st.set_page_config(
-    page_title="🎉 PhotoBooth",
+    page_title="🎉 PhotoBooth with Detective Conan",
     page_icon="📸",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -136,7 +136,6 @@ with col1:
         rtc_configuration=RTC_CONFIGURATION,
         media_stream_constraints={"video": True, "audio": False},
         async_processing=True,
-        status_indicator="hidden"
     )
 
 with col2:
